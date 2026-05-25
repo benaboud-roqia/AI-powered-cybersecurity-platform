@@ -1,20 +1,73 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🔍 ThreatHunter-AI
 
-# Run and deploy your AI Studio app
+ThreatHunter-AI is an intelligent cybersecurity platform designed to automate threat detection and security analysis using Artificial Intelligence.
 
-This contains everything you need to run your app locally.
+The platform collects system and network logs, detects malware and suspicious activities, explains attack patterns, and visualizes security events for faster investigation.
 
-View your app in AI Studio: https://ai.studio/apps/2f7c821a-ae26-4ad4-8673-84fbaf9ae034
+## Features
+- 📥 Log collection and processing  
+- 🧠 AI-based malware detection  
+- 🔎 Threat classification and analysis  
+- 💬 NLP-powered attack explanation  
+- 📊 Interactive security visualization  
+- 🚨 Real-time threat alerts  
+- 📈 Security analytics dashboard  
 
-## Run Locally
+## Workflow
+```text
+Logs Collection
+      ↓
+Data Processing
+      ↓
+Feature Extraction
+      ↓
+AI Detection Engine
+      ↓
+Threat Classification
+      ↓
+Attack Explanation
+      ↓
+Dashboard & Alerts
+```
 
-**Prerequisites:**  Node.js
+## Technologies
+- Python  
+- NLP (Natural Language Processing)  
+- Machine Learning  
+- Deep Learning  
+- Cybersecurity Analytics  
+- FastAPI / Flask  
+- TensorFlow / PyTorch  
+- ELK Stack  
+- Streamlit / React  
 
+## Modules
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Log Analyzer
+Collects and processes security logs.
+
+### Malware Detector
+Detects suspicious behavior and malicious patterns.
+
+### Attack Explainer
+Uses NLP techniques to generate understandable explanations of threats.
+
+### Visualization Dashboard
+Displays attack statistics and security insights.
+
+## Project Goal
+Create an intelligent threat hunting platform capable of detecting, classifying, and explaining cyberattacks automatically.
+
+## Future Improvements
+- SIEM integration  
+- Threat prediction  
+- Automated incident response  
+- Cloud deployment  
+- Multi-agent security system  
+
+## Author
+**Benaboud Roqia**
+
+---
+
+Made with ❤️ for AI & Cybersecurity
